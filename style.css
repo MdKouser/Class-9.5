@@ -1,0 +1,70 @@
+img{
+   max-width: 100%;
+}
+.logo{
+    width: 150px;
+}
+section{
+    margin-bottom: 80px;
+}
+/* Banner section */
+
+.hero-section{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100px;
+    background-position: bottom left;
+}
+.buy-now-button{
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    
+}
+.buy-now-button i {
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+}
+/* products section */
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+/* Categories section */
+.c-title{
+    text-align: center;
+    position: relative;
+    margin-bottom: 80px;
+}
+.c-title::after{
+    content: "";
+    position: absolute;
+    border-image: linear-gradient(180deg, lightsalmon, orange) ;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50px;
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+    width: 60px;   
+}
+.c-photo{
+    width: 200px;
+    height: auto;
+    /* background-color: #fff; */
+    box-shadow: 5px 5px 10px lightgray;
+    margin: 30px;
+    border-radius: 10px 5px 30px 5px;
+    padding: 40px 20px;
+}
+.c-photo-p{
+    position: relative;
+    left: 50px;
+}
